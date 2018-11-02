@@ -1,0 +1,53 @@
+.global {
+    left: 100px;
+    float: left;
+    width: 600px;
+    height: 410px;
+    background: red;
+    padding-top: 10px;
+    position: relative;
+}
+.conteiner {
+    
+    width: 200px;
+    height: 400px;
+    position: absolute;
+   
+}
+
+.global .conteiner:first-child {
+    left: 0px;
+    padding: 0px;
+    list-style: none;
+    background: green;
+    
+}
+.global .conteiner:nth-child(2) {
+    left: 200px;
+    background: gray;
+   
+}
+.global .conteiner:last-child {
+    left: 400px;
+    background: blue;
+    
+}
+ul li {
+    z-index: 5;
+    color: black;
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 27px;
+    border: 1px solid black;
+}
+ul {
+    display: block;
+    table-layout: auto;
+    left: 100px;
+    
+}
+
+
+
+
